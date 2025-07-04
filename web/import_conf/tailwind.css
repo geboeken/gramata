@@ -1,0 +1,13 @@
+@theme {
+  /* Font */
+  --font-base: "Inter";
+  --font-display: "Aeonik Pro TRAIL";
+  --font-serif: "Literaturnaya";
+
+  /* Color */
+  --color-accent-200: FFE0B2;
+  --color-accent-400: FFA34D;
+  --color-accent-500: FF6A00; /* Base Accent */
+  --color-accent-800: B34900;
+  --color-accent-900: 993F00;  
+}
