@@ -1,4 +1,11 @@
-# Gramata. Книги – твой лучший друг
+# Gramata.
+Книги – твой лучший друг
+<!-- Бейджи -->
+![Static Badge](https://img.shields.io/badge/geboeken-gramata-gramata)
+![GitHub top language](https://img.shields.io/github/languages/top/geboeken/gramata)
+![GitHub](https://img.shields.io/github/license/geboeken/gramata)
+![GitHub Repo stars](https://img.shields.io/github/stars/geboeken/gramata)
+![GitHub issues](https://img.shields.io/github/issues/geboeken/gramata)
 
 ## Описание проекта  
 **Gramata** -- интернет-магазин книг для подростков. Наша цель -- помочь юным читателям найти вдохновляющие, развивающие и увлекательные книги, которые помогут им расти и открывать мир.
@@ -10,33 +17,45 @@
 - Удобная система оплаты и быстрая доставка  
 - Отзывы и оценки других подростков
 
-**Требования**  
-- Node.js ≥ 14  
-- npm или yarn  
-- Любой современный браузер для фронтенда  
-- База данных (PostgreSQL / MongoDB)
+![Logotype](./web/src/img/svg_c_logo.svg)
 
-**Установка**  
-1. Клонировать репозиторий:  
-   
-    ```bash
-    git clone https://github.com/geboeken/gramata.git
-    cd gramata
-   ```
+<!--Установка-->
+## Установка (Linux)
 
-2. Установить зависимости:
-    ```bash
-        npm install
-        # или
-        yarn install
-    ```
-3. Создать файл окружения .env на основе .env.example и заполнить параметры (БД, API-ключи и т.д.)
-4. Запустить локально:
-    ```bash
-    npm start
-        # или
-    yarn start
-    ```
-5. Использование
-    Открыть в браузере http://localhost:3000
-    Зарегистрироваться и начать искать книги
+1. Клонирование репозитория 
+
+```git clone https://github.com/geboeken/gramata.git```
+
+2. Переход в директорию gramata-web
+
+```cd gramata/web```
+
+3. Запуск сервера
+
+```npm run server```
+
+И всё готово!
+
+## Документация
+Пользовательскую документацию можно получить по [этой ссылке](./docs/ru/index.md).
+
+[Релизы программы]: https://github.com/geboeken/gramata/releases
+
+<!--Поддержка-->
+## Поддержка
+Если у вас возникли сложности или вопросы по использованию пакета, создайте 
+[обсуждение](https://github.com/geboeken/gramata/issues/new/choose) в данном репозитории или напишите на электронную почту <petitler@gmail.com>.
+
+## Описание коммитов
+| Название | Описание                                                        |
+|----------|-----------------------------------------------------------------|
+| build	   | Сборка проекта или изменения внешних зависимостей               |
+| sec      | Безопасность, уязвимости                                        |
+| docs	   | Обновление документации                                         |
+| feat	   | Добавление нового функционала                                   |
+| fix	   | Исправление ошибок                                              |
+| perf	   | Изменения направленные на улучшение производительности          |
+| refactor | Правки кода без исправления ошибок или добавления новых функций |
+| revert   | Откат на предыдущие коммиты                                     |
+| style	   | Правки по кодстайлу (табы, отступы, точки, запятые и т.д.)      |
+| test	   | Добавление тестов                                               |
